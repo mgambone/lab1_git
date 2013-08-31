@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#Count characters by line in a text file
+cat in file | while read line
+do
+
+count=$(echo $line | wc -c)
+echo $line $count
+done
+
+if [$count > 80]; then
+  echo "You cannot check-in file with more than 80 characters per line."
+  exit 1
+fi
+exit 0
+
+exit
