@@ -1,0 +1,12 @@
+diff --git a/HelloWorld/src/HelloWorldDe.java b/HelloWorld/src/HelloWorldDe.java
+deleted file mode 100644
+index abfb246..0000000
+--- a/HelloWorld/src/HelloWorldDe.java
++++ /dev/null
+@@ -1,6 +0,0 @@
+-
+-public class HelloWorldDe {
+-	public static void main( String [] args){
+-		System.out.println("Hallo Welt!");
+-	}
+-}
